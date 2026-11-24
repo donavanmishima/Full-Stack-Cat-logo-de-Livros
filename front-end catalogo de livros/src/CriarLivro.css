@@ -1,0 +1,106 @@
+
+/* ===== FORMULÁRIO DE LIVROS ===== */
+
+form {
+    background-color: #FAEDCD;
+    width: 100%;
+    max-width: 500px;
+    padding: 28px;
+    border: 1px solid #E1D2B8;
+    border-radius: 14px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 15px rgba(44, 29, 17, 0.08);
+    text-align: center;
+}
+
+/* Espaçamento entre os campos */
+
+form div {
+    display: flex;
+    align-items: center;
+    margin-top: 14px;
+    gap: 10px;
+}
+
+/* Textos dos campos */
+
+form label {
+    width: 115px;
+    text-align: right;
+    color: #2C1D11;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+/* Campos de texto e números */
+
+form input,
+form textarea {
+    flex: 1;
+    min-width: 0;
+    padding: 10px;
+    border: 1px solid #D4C2A5;
+    border-radius: 7px;
+    background-color: #FFFEFA;
+    color: #2C1D11;
+    font-family: inherit;
+    font-size: 14px;
+    outline: none;
+    transition: 0.2s;
+}
+
+/* Efeito ao clicar nos campos */
+
+form input:focus,
+form textarea:focus {
+    border-color: #A87945;
+    box-shadow: 0 0 0 3px rgba(168, 121, 69, 0.15);
+}
+
+/* Área da sinopse */
+
+form textarea {
+    resize: vertical;
+    min-height: 85px;
+}
+
+/* Botões */
+
+form button {
+    margin: 20px 5px 0;
+    padding: 11px 24px;
+    border: none;
+    border-radius: 7px;
+    background-color: #2C1D11;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+/* Efeito dos botões */
+
+form button:hover {
+    background-color: #A87945;
+    transform: translateY(-2px);
+}
+
+/* Adaptação para celulares */
+
+@media (max-width: 480px) {
+    form {
+        padding: 18px;
+    }
+
+    form div {
+        align-items: stretch;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    form label {
+        width: auto;
+        text-align: left;
+    }
+}

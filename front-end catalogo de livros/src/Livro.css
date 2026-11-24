@@ -1,0 +1,47 @@
+
+
+.livro {
+    background-color: #FAEDCD;
+    border: 1px solid #2C1D11;
+    padding: 20px;
+    margin: 12px;
+    width: 300px;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+
+/* Título do livro */
+.livro h3 {
+    color: #2C1D11;
+    margin-top: 0;
+}
+
+/* Informações do livro */
+.livro p {
+    color: #49382B;
+    line-height: 1.5;
+}
+
+/* Preço e estoque */
+.livro span {
+    display: block;
+    margin-bottom: 8px;
+    color: #2C1D11;
+    font-weight: bold;
+}
+
+
+.livro button {
+    background-color: #2C1D11;
+    color: white;
+    border: none;
+    padding: 9px 14px;
+    margin: 8px 5px 0 0;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+.livro button:hover {
+    background-color: #A87945;
+}
